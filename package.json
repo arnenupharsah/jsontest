@@ -1,0 +1,14 @@
+{
+  "name": "jsontest",
+  "version": "1.0.0",
+  "description": "Testing REST API",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db1.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.14.2"
+  }
+}

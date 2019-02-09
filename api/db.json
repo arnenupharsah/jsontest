@@ -1,0 +1,28 @@
+{
+    "todos": [
+        {
+            "id": 1, 
+            "activity": "Projects"
+        }, 
+        {
+            "id": 2, 
+            "activity": "Shopping"
+        }, 
+        {
+            "id": 3, 
+            "activity": "Gym"
+        }, 
+        {
+            "id": 4, 
+            "activity": "Reading"
+        }, 
+        {
+            "id": 5, 
+            "activity": "Painting"
+        }, 
+        {
+            "id": 6, 
+            "activity": "ascac"
+        }
+    ]
+}

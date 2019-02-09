@@ -1,0 +1,28 @@
+$def with (data, form)
+
+<table>
+    <tr>
+        <th>What to do ?</th>
+        <th></th>
+    </tr>
+
+
+
+    $for d in range(0,len(data)):
+
+    <tr>
+        
+        <td>$data[d][u'activity']</td>
+        
+        <td>
+            <form action="/del/$data[d][u'id']" method="post">
+                <input type="submit" value="Delete"/>
+            </form>
+                  
+        </td>
+    </tr>    
+</table>  
+
+<form action="" method="post">
+$:form.render()
+</form>
